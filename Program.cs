@@ -10,7 +10,7 @@ class Program
         // Les années bissextiles sont soit divisibles par 4 mais pas par 100, soit divisibles par 400.
 
         bool use_continuous = true;
-        while (use_continuous = true)
+        while (use_continuous == true)
         {
             Console.WriteLine("Entrez une année !");
             int annee = Convert.ToInt32(Console.ReadLine());
@@ -41,6 +41,9 @@ class Program
             }
 
 
+            Console.WriteLine("\n");
+
+
             Console.WriteLine("Voulez vous entrez encore une année ! oui/non");
             string use_O_Or_N = Console.ReadLine();
 
@@ -65,8 +68,8 @@ class Program
                 Console.WriteLine("\n\n\n\n\n\n\n\n\n\nError\n\n\n\n\n\n\n\n\n\n");
             }
 
-        }
+            Console.WriteLine("\n");
 
-        
+        }
     }
 }
